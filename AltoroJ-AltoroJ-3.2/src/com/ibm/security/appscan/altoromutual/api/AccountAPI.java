@@ -23,7 +23,7 @@ import com.ibm.security.appscan.altoromutual.util.OperationsUtil;
 @Path("/account")
 public class AccountAPI extends AltoroAPI {
 
-	// For the get method return all accounts *these changes will be published*
+	// For the get method return all accounts *changes made to GIT*
 	@GET
 	public Response getAccounts(@Context HttpServletRequest request) {
 
