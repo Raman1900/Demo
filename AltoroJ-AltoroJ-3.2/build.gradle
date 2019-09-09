@@ -1,4 +1,6 @@
-
+plugins {
+  id "org.sonarqube" version "2.7"
+}
 apply plugin: 'war'
 
 webAppDirName = 'WebContent'
