@@ -36,7 +36,6 @@ import com.ibm.security.appscan.altoromutual.model.Feedback;
 import com.ibm.security.appscan.altoromutual.model.Transaction;
 import com.ibm.security.appscan.altoromutual.model.User;
 import com.ibm.security.appscan.altoromutual.model.User.Role;
-import com.ibm.security.annotation.*;
 
 /**
  * Utility class for database operations
