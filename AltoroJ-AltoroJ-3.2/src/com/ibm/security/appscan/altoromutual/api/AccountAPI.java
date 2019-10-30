@@ -23,7 +23,7 @@ import com.ibm.security.appscan.altoromutual.util.OperationsUtil;
 @Path("/account")
 public class AccountAPI extends AltoroAPI {
 
-	// For the get method return all accounts *new changes --Jenkins 29Oct'19-new2*
+	// For the get method return all accounts *new changes --Jenkins 29Oct'19-new3*
 	@GET
 	public Response getAccounts(@Context HttpServletRequest request) {
 
