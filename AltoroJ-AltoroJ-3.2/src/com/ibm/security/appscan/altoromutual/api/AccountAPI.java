@@ -50,7 +50,7 @@ public class AccountAPI extends AltoroAPI {
 		return Response.status(Response.Status.OK).entity(response).type(MediaType.APPLICATION_JSON_TYPE).build();
 	}
 
-	// Method to return details about a specific account
+	// Method to return details about a specific account - updated by varun on 20th Jan
 	@GET
 	@Path("/{accountNo}")
 	public Response getAccountBalance(@PathParam("accountNo") String accountNo,
