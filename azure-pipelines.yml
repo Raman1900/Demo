@@ -22,7 +22,10 @@ steps:
   inputs:
     AppSecTestService: 'Harit_Devops_AZure'
     applications: '5d045485-06b0-4ca1-93ea-d380c6d245b4'
-    scanname: 'VSTS_Azure_DAST'
+    scanname: 'Azure DevOps'
     scantype: 'dynamic'
     scanURL: 'https://demo.testfire.net/'
+    dynamicuser: 'admin'
+    dynamicloginpassword: 'admin'
+    dynamicpresence: 'db1037f2-14c1-ea11-9b05-00155d550e89'
     email: true
