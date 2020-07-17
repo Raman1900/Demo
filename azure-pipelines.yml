@@ -1,4 +1,5 @@
 # Starter pipeline
+- 
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -21,11 +22,10 @@ steps:
 - task: HCLAppScan@1
   inputs:
     AppSecTestService: 'Harit_Devops_AZure'
-    applications: '5d045485-06b0-4ca1-93ea-d380c6d245b4'
-    scanname: 'Azure DevOps'
+    applications: '127f1020-c9a8-4fac-9371-d939b99876c5'
+    scanname: 'DAST Scan Azure'
     scantype: 'dynamic'
     scanURL: 'https://demo.testfire.net/'
-    dynamicuser: 'admin'
-    dynamicloginpassword: 'admin'
-    dynamicpresence: 'db1037f2-14c1-ea11-9b05-00155d550e89'
+    type: 'staging'
+    optimization: 'true'
     email: true
